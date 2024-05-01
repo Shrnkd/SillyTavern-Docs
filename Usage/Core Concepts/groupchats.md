@@ -34,6 +34,8 @@ This setting decides how to handle the character information of the group chat m
 
 Default mode. Every time the message is generated, only the character card information of the active speaker is included in the context.
 
+**PRO TIP:** For better interaction between all the AI characters in a specified scenario, consider writing the scenario in each character card from that character's POV, focusing on that character's personal goals in the provided scenario, and omitting any details the character shouldn't know (for example, the personal goals and circumstances of the other participating characters).
+
 #### Join character cards
 
 The information of all of the group members (excluding muted if they aren't the current speaker) is combined into one in their list order. This can help in cases when altering large chunks of the context is undesirable, e.g. with llama.cpp.
